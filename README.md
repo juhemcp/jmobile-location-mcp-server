@@ -10,9 +10,9 @@
 服务器实现了一个工具:
 
 - get_mobile_phone_location: 根据手机号码查询其所属地信息。
-  - 需要传入 "phone_number"（手机号码）作为必须的字符串参数。
+  - 需要传入 "phone"（手机号码）作为必须的字符串参数。
 ```
-async def get_news_list(type: str = "top", page: int = 1, page_size: int = 20) -> list[types.TextContent | types.ImageContent | types.EmbeddedResource]:
+async def get_mobile_location(phone: str = "") -> list[types.TextContent | types.ImageContent | types.EmbeddedResource]:
 ```
 
 
