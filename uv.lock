@@ -121,8 +121,8 @@ wheels = [
 ]
 
 [[package]]
-name = "jnews-mcp-server"
-version = "0.1.3"
+name = "jmobile-location-mcp-server"
+version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "mcp", extra = ["cli"] },
